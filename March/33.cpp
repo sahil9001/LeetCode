@@ -3,8 +3,6 @@ class Solution
 public:
     int match_change(string &target, string stamp)
     {
-        //find the first matching and return
-        //at least has one non * char inside, * matches any char
         bool matched = 0;
         for (int i = 0; i < target.size(); i++)
         {
